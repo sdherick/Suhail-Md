@@ -4,29 +4,29 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //═══════[Required Variables]════════\\
 global.audio= "" ;  
-global.video= "" ;
+global.video= "https://telegra.ph/file/30e523bfaeed47cff4f12.mp4" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
 global.email ="saimsamsun789@gmail.com"
-global.location="Lahore,Pakistan."
+global.location="Afica/Lagos."
 
 
-global.mongodb= process.env.MONGODB_URI || ""
+global.mongodb= process.env.MONGODB_URI || "null"
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
 
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
-global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
+global.github=process.env.GITHUB|| "https://github.com/M-cross1/Suhail-Md";
+global.gurl  =process.env.GURL  || "https://Wa.me/2349042566473?text=Boss%20ＫＩＮＧ🍀Ｍ-ＣＲＯＳＳ%20my%20name%20is___%20and%20I've%20saved%20your%20contact%20you%20should%20please%20save%20mine%20too%20%20✅";
+global.website=process.env.GURL || "https://Wa.me/2349042566473?text=Boss%20ＫＩＮＧ🍀Ｍ-ＣＲＯＳＳ%20my%20name%20is___%20and%20I've%20saved%20your%20contact%20you%20should%20please%20save%20mine%20too%20%20✅" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://github.com/SuhailTechInfo/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true" ; // SET LOGO FOR IMAGE 
-global.caption = process.env.CAPTION || global.caption || "ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ" 
+global.caption = process.env.CAPTION || global.caption || "𝚳𝐂𝚪𝚯𝐒𝐒-𝚳𝐃 
 
 
 global.devs = "923184474176" // Developer Contact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "2349042566473";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2349042566473";
 
 
 
@@ -42,8 +42,8 @@ global.disablepm = process.env.DISABLE_PM || "false"
 global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
 
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false" // "true"  to see messages , "log" to show logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES || "" // "text" // set Image/video urls here
-global.waPresence= process.env.WAPRESENCE ||  "null" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
+global.userImages= process.env.USER_IMAGES || "https://telegra.ph/file/30e523bfaeed47cff4f12.mp4,https://telegra.ph/file/c7287483902f7c43761ac.jpg,https://telegra.ph/file/3955b8ff6a5b58fe420f9.jpg" // "text" // set Image/video urls here
+global.waPresence= process.env.WAPRESENCE ||  "unavailable" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
@@ -53,7 +53,7 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923xxxxxxxx";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
-global.read_status = process.env.AUTO_READ_STATUS || "false"
+global.read_status = process.env.AUTO_READ_STATUS || "true"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923184474176,923xxxxxxxx";
@@ -69,15 +69,15 @@ module.exports = {
 
   menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
-  HANDLERS: process.env.PREFIX  || ".",
+  HANDLERS: process.env.PREFIX  || "⚡",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.8",
-  caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : global.caption || "𝛫𝛪𝛮𝐺⚡𝛭-𝐶𝑅𝛩𝑆𝑆" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "Suhail",
+  botname : process.env.BOT_NAME  || "𝚳𝐂𝚪𝚯𝐒𝐒-𝚳𝐃",
+  ownername:process.env.OWNER_NAME|| "𝛫𝛪𝛮𝐺⚡𝛭-𝐶𝑅𝛩𝑆𝑆",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -92,7 +92,7 @@ module.exports = {
 
 
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "SUHAIL"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "NEZUKO"  ).toUpperCase(),
 
 
 
